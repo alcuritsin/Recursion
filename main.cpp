@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <conio.h>
 
 void elevator(int floor)
@@ -16,15 +16,14 @@ void main()
 	system("COLOR 0A");
 	int n =1000000;
 
-	//std::cout << "Íà êàêîì âû ýòàæå? "; std::cin >> n;
+	//std::cout << "ÐÐ° ÐºÐ°ÐºÐ¾Ð¼ Ð²Ñ‹ ÑÑ‚Ð°Ð¶Ðµ? "; std::cin >> n;
 
 	elevator(n);
-
 
 	/*
 	std::cout << "Hello World!\n";
 
-	std::cout << "Äëÿ âûõîäà Esc. Äëÿ ïðîäîëæåíèÿ ëþáàÿ êëàâèøà.\n";
+	std::cout << "Ð”Ð»Ñ Ð²Ñ‹Ñ…Ð¾Ð´Ð° Esc. Ð”Ð»Ñ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶ÐµÐ½Ð¸Ñ Ð»ÑŽÐ±Ð°Ñ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ°.\n";
 
 	if (_getch()!=27) main();
 	*/
