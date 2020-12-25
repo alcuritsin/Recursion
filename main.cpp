@@ -10,16 +10,26 @@ void elevator(int floor)
 	std::cout << floor << std::endl;
 }
 
+//int Fact(int digit)
+//{	
+//	int resoult = 1;
+//	if (digit == 0) return;
+//	resoult *=Fact(digit - 1);
+//	
+//	return resoult;
+//}
+
 void main()
 {
 	setlocale(LC_ALL, "Russian");
 	system("COLOR 0A");
-	int n =1000000;
-
+	int n = 5;
+	int nf;
 	//std::cout << "На каком вы этаже? "; std::cin >> n;
 
-	elevator(n);
-
+	// elevator(n);
+	//nf = Fact(n);
+	//std::cout << nf;
 	/*
 	std::cout << "Hello World!\n";
 
